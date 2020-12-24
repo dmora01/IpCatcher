@@ -4,7 +4,7 @@ exports.getIpAddress = (req, res, next) => {
     let agent = req.headers['user-agent'];
 
     res.status(200).json({
-        ipAddress: ip,
+        ip: ip,
         device: agent
     });
 }
