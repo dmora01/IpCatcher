@@ -5,6 +5,6 @@ exports.getIpAddress = (req, res, next) => {
 
     res.status(200).json({
         ipAddress: ip,
-        agent: agent
+        device: agent
     });
 }
